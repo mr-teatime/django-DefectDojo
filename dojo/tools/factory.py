@@ -36,7 +36,7 @@ def import_parser_factory(file, test, scan_type=None):
     scan_type = test.test_type.name
     if scan_type == "Burp Scan":
         parser = BurpXmlParser(file, test)
-    if scan_type == "Burp Json Scan":
+    elif scan_type == "Burp Json Scan":
         parser = BurpJsonParser(file, test)        
     elif scan_type == "Nessus Scan":
         filename = file.name.lower()

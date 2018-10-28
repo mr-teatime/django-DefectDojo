@@ -62,8 +62,6 @@ class BurpJsonParser(object):
                                    date=find_date,
                                    dynamic_finding=True)
                     dupes[dupe_key] = find
-
-                    find.unsaved_request = request
-                    find.unsaved_response = response
-
+                    #find.unsaved_request = request
+                    #find.unsaved_response = response
             self.items = dupes.values()

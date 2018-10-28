@@ -1,5 +1,5 @@
 from dojo.tools.burp.parser import BurpXmlParser
-from dojo.tools.burpjson.parser import BurpJsonParser
+from dojo.tools.parser import BurpJsonParser
 from dojo.tools.nessus.parser import NessusCSVParser, NessusXMLParser
 from dojo.tools.nmap.parser import NmapXMLParser
 from dojo.tools.nexpose.parser import NexposeFullXmlParser

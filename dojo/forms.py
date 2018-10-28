@@ -227,6 +227,7 @@ class Product_TypeProductForm(forms.ModelForm):
 class ImportScanForm(forms.Form):
     SCAN_TYPE_CHOICES = (("", "Please Select a Scan Type"),
                          ("Burp Scan", "Burp Scan"),
+                         ("Burp Json Scan", "Burp Json Scan"),
                          ("Nessus Scan", "Nessus Scan"),
                          ("Nmap Scan", "Nmap Scan"),
                          ("Nexpose Scan", "Nexpose Scan"),
